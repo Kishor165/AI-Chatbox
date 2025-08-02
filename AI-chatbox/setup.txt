@@ -1,0 +1,55 @@
+## 🔍 How It Works
+
+- The frontend is a web chat interface built with HTML, CSS, and JavaScript.  
+- When you type a message and send it, the browser sends your question to the Flask backend.  
+- The Flask backend forwards your message to your local Ollama server, which runs the Gemma3 AI model.  
+- Ollama processes the input and streams back AI-generated responses to Flask.  
+- Flask relays the response back to the frontend, where it appears with typing animations.  
+- The entire conversation happens locally on your machine — no internet required after setup.
+
+---
+
+## 🛠️ How to Install & Run
+
+### 1. Install Ollama
+
+- Download and install Ollama from the official site: [https://ollama.com](https://ollama.com)  
+- Ollama enables running AI models like Gemma3 locally on your computer.
+
+### 2. Download the Gemma3 Model
+
+Open your terminal or command prompt and run:
+
+```bash
+ollama pull gemma3
+
+3. Start the Ollama Model Server
+Run this command to start the model server locally:
+
+bash
+Copy
+Edit
+ollama run gemma3
+The Ollama server listens on http://localhost:11434 by default.
+
+4. Setup and Run the Flask App
+Clone this repository.
+
+Install Python dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the Flask server:
+
+bash
+Copy
+Edit
+python app.py
+Open your browser and visit:
+
+arduino
+Copy
+Edit
+http://localhost:5000
