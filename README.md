@@ -1,6 +1,6 @@
 # 🤖 AI Chatbox — Powered by Ollama Gemma3
 
-![AI Chatbox UI](docs/Ollama.png)
+![AI Chatbox UI](AI-chatbox/docs/Ollama.png)
 
 A sleek and fully functional **AI chat interface** built using **Flask** and **Gemma3 via Ollama**, featuring a **glassmorphism design**, animated effects, and a live streaming chat experience — all running **locally** without internet dependency.
 
