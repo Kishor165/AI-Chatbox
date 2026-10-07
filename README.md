@@ -4,7 +4,6 @@ A sleek and fully functional **AI chat interface** built using **Flask** and **G
 ---
 
 ## 🔧 Features
-
 - 🌈 Elegant glass UI with animated background & floating elements
 - 💬 Real-time chat with Ollama's **Gemma3**
 - 📡 Fully offline AI interaction on `localhost:11434`
